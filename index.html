@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/seize.png"
+      type="image/x-icon"
+    />
+    <script src="assets/grained.js"></script>
     <title>Bernard Appiah - Agile Developer Portfolio</title>
 
     <meta
       name="description"
-      content="Bernard Appiah - Agile web developer with 3 years of experience, specializing in solution-oriented and cyber security-focused web development. Explore my portfolio to see how I create impactful solutions, not just code."
+      content="Bernard Appiah - Agile web developer with 4 years of experience, specializing in solution-oriented and cyber security-focused web development. Explore my portfolio to see how I create impactful solutions, not just code."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
@@ -20,7 +25,6 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <!-- <meta property="og:url" content="https://yourwebsite.com"> -->
-
     <meta
       property="og:title"
       content="Bernard Appiah - Agile Web Developer Portfolio"
@@ -29,10 +33,7 @@
       property="og:description"
       content="Bernard Appiah - Agile web developer with 3 years of experience, specializing in solution-oriented and cyber security-focused web development. Explore my portfolio to see how I create impactful solutions, not just code."
     />
-    <meta
-      property="og:image"
-      content="https://i.ibb.co/cT5CZMD/372497205545604.jpg"
-    />
+    <meta property="og:image" content="https://i.ibb.co/yqn0LNF/image.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -49,11 +50,11 @@
       property="twitter:image"
       content="https://i.ibb.co/cT5CZMD/372497205545604.jpg"
     />
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-    <!--=== Stylesheet CSS ===-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/Group 1988-p.png"
+      type="image/x-icon"
+    />
     <link
       href="https://assets.calendly.com/assets/external/widget.css"
       rel="stylesheet"
@@ -63,984 +64,1276 @@
       type="text/javascript"
       async
     ></script>
-
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script defer="defer" src="main.js"></script>
+    <link href="main.css" rel="stylesheet" />
   </head>
-
   <body>
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
-        your experience.
-      </p>
-    <![endif]-->
-    <!--===============================================================================-->
-
-    <!--====== Preloader Start ======-->
-    <div class="preloader">
-      <div class="preloader-spinner">
-        <div class="display-table">
-          <div class="display-table-cell">
-            <img src="img/preloader.svg" alt="Divergent Studio" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--====== Preloader End ======-->
-
-    <!--====== Header Start ======-->
-    <header id="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="header-social-icons">
-              <ul>
-                <li>
-                  <a
-                    href="https://gitroll.io/profile/uCZoLxQkkuRdj3aAXuhjEPScYxeO2/repos"
-                    target="_blank"
-                    ><i class="fa fa-address-book"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://t.me/Bernard_Appiah" target="_blank"
-                    ><i class="fa fa-telegram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://github.com/Borngod" target="_blank"
-                    ><i class="fa fa-github"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://linkedin.com/in/bernard-appiah360"
-                    target="_blank"
-                    ><i class="fa fa-linkedin"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-md-8">
-            <div class="menu-icon">
-              <div class="open-btn">
-                <span></span>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="grain"></div>
+    <canvas id="background-canvas"></canvas>
+    <header class="header">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html"
+          ><img
+            src="assets/images/Group 1988-p.png"
+            alt="logo"
+            width="60px"
+          /> </a
+        ><button class="bg-transparent border-0 d-xl-none">
+          <div class="nav-icon"><span></span> <span></span> <span></span></div>
+        </button>
       </div>
     </header>
-    <!--====== Header End ======-->
-
-    <!--====== Off Canvas Menu Start ======-->
-    <div class="off-canvas-menu">
-      <nav class="main-menu">
-        <ul>
-          <li><a href="index.html#header-bottom">Home</a></li>
-          <li><a href="index.html#about-area">About</a></li>
-          <li><a href="index.html#education-area">Education</a></li>
-          <li><a href="index.html#testimonial-area">Testimonials</a></li>
-          <li><a href="index.html#contact-area">Contact Me</a></li>
-        </ul>
-      </nav>
-      <button class="menu-close-btn">Close</button>
-    </div>
-    <!--====== Off Canvas Menu End ======-->
-
-    <!--====== Video Background ======-->
-    <div id="video-backgroudnd"></div>
-    <!--====== Video Background ======-->
-
-    <!--====== HeaderBottom Start ======-->
-    <section
-      id="header-bottom"
-      data-vide-bg="videobg/video"
-      data-vide-options="loop: true, muted: true, position: center center"
-    >
-      <div class="header-main wow fadeInUp">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="dispaly-table">
-                <div class="display-table-cell">
-                  <div class="header-bottom">
-                    <h1>Hello!</h1>
-                    <h3><span>I'm</span> Bernard Appiah</h3>
-                    <p>Agile Developer | Cybersecurity Expert</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <nav class="navigation" id="navigation">
+      <img src="assets/images/logo.png" class="mb-4 d-xl-none" alt="logo" />
+      <ul>
+        <li class="nav-link">
+          <a href="index.html#top" class="active"
+            ><span>01</span> <span class="text">top</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#about_me"
+            ><span>02</span> <span class="text">about me</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#services"
+            ><span>03</span> <span class="text">my services</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#attainments"
+            ><span>04</span> <span class="text">skills</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#fun_facts"
+            ><span>05</span> <span class="text">facts</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#experience"
+            ><span>06</span> <span class="text">experiences</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#projects"
+            ><span>07</span> <span class="text">Projects</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#how_i_work"
+            ><span>08</span> <span class="text">how i work</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#testimonials"
+            ><span>09</span> <span class="text">testimonials</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a href="index.html#contact"
+            ><span>10</span> <span class="text">contact</span></a
+          >
+        </li>
+      </ul>
+      <div class="contact">
+        <a href="mailto:appiahbernard42@gmail.com">appiahbernard42@gmail.com</a>
+        <a href="tel:+233 592 332 359">+233 592 332 359</a>
       </div>
-    </section>
-    <!--====== HeaderBottom End ======-->
-
-    <!--====== About Area Start ======-->
-    <section id="about-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-thum-area wow fadeInLeft">
-              <div class="about-img">
-                <img src="img/372497205545604.jpg" alt="Resume Template" />
-              </div>
-              <div class="resume-btn">
-                <a
-                  href="https://drive.google.com/file/d/19RY091l0NhNnZSxW44IYoHVPyAfAzVmY/view?usp=sharing"
-                  target="_blank"
-                  ><i class="fa fa-cloud-download"></i> Download Resume</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="about-content-area wow fadeInRight">
-              <div class="section-title">
-                <h2>About Me</h2>
-              </div>
-
-              <p>
-                Hello! I’m Bernard Appiah, a Software Engineer based in Accra,
-                Ghana, with over 3 years of experience in the web development
-                industry. <br />In addition to my development work, I have a
-                strong background in cybersecurity with a focus on Security
-                Operations Center (SOC) roles. My skill set includes HTML, CSS,
-                JavaScript, TypeScript, and Python, with hands-on experience in
-                tools like Rest API, WordPress, HubSpot, Webflow, and
-                Postman.<br />
-                I am proficient in frameworks such as React.js, Vue.js, Next.js,
-                Tailwind CSS, SCSS, and Express.js, and have experience with
-                databases like MongoDB and Airtable. I’m skilled in creating
-                secure and innovative solutions excel in teamwork and effective
-                communication to deliver impactful results.<br />
-                Interested in how I can contribute to your team?
-                <span class="bookme"
-                  ><a
-                    href=""
-                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/bernard360'});return false"
+    </nav>
+    <div class="nav-overlay d-xl-none"></div>
+    <main class="container-fluid">
+      <div class="row gx-xxl-6">
+        <div
+          class="col col-xl-9"
+          data-bs-spy="scroll"
+          data-bs-target="#navigation"
+        >
+          <section id="top" class="hero">
+            <div class="row gx-4 align-items-center">
+              <div class="col-12 col-md-6 col-xl-6 hero-content">
+                <div>
+                  <h4 class="text-uppercase freelancer">
+                    HI, I'M AN EXPERT IN
+                  </h4>
+                  <h1
+                    class="text-uppercase overflow-hidden developer"
+                    id="typewriter"
+                  ></h1>
+                  <p class="description">based in Asylum down, Accra, Ghana.</p>
+                </div>
+                <div class="d-flex gap-4">
+                  <a
+                    href="index.html#projects"
+                    class="btn work-btn text-capitalize btn-secondary"
+                    >view my work</a
                   >
-                    <strong>Book a meeting</strong></a
-                  ></span
-                >
-                to discuss how we can work together.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--====== About Area End ======-->
-
-    <!--====== My Interest Area Start ======-->
-    <section id="interest-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="section-title">
-              <h2>My interests</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="interests-content">
-              <div class="row">
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInUp">
-                    <div class="interest-item-content">
-                      <i class="fa fa-plus-square"></i>
-
-                      <p>Spirituality</p>
-                    </div>
+                  <a
+                    href="index.html#contact"
+                    class="btn contact-btn text-capitalize btn-outline-secondary"
+                    >contact me</a
+                  >
+                </div>
+              </div>
+              <div class="col-12 col-md-5 offset-md-1 offset-xxl-2 col-xl-4">
+                <div class="img-wrapper">
+                  <div class="waves-top">
+                    <span></span> <span></span> <span></span> <span></span>
+                  </div>
+                  <img
+                    class="img-fluid rounded-circle hero-img"
+                    src="assets/images/imageWarm.png"
+                    alt=""
+                  />
+                  <div class="waves-bottom">
+                    <span></span> <span></span> <span></span> <span></span>
                   </div>
                 </div>
-                <!--Single My Interest End-->
-
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInDown">
-                    <div class="interest-item-content">
-                      <i class="fa fa-music"></i>
-
-                      <p>Music</p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single My Interest End-->
-
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInUp">
-                    <div class="interest-item-content">
-                      <i class="fa fa-share"></i>
-
-                      <p>Philanthropy</p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single My Interest End-->
-
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInDown">
-                    <div class="interest-item-content">
-                      <i class="fa fa-book"></i>
-
-                      <p>Education</p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single My Interest End-->
-
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInUp">
-                    <div class="interest-item-content">
-                      <i class="fa fa-file-movie-o"></i>
-
-                      <p>Anime</p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single My Interest End-->
-
-                <!--Single My Interest Start-->
-                <div class="col-md-2 col-sm-4 col-xs-6">
-                  <div class="interest-item wow fadeInDown">
-                    <div class="interest-item-content">
-                      <i class="fa fa-superpowers"></i>
-
-                      <p>Combat Sports</p>
-                    </div>
-                  </div>
-                </div>
-                <!--Single My Interest End-->
+              </div>
+              <div class="col-12">
+                <a
+                  href="index.html#about_me"
+                  class="d-flex gap-4 align-items-center next-chapter mt-5"
+                  ><span class="page">01/10</span>
+                  <span class="next">Next Chapter</span>
+                  <span class="icon"
+                    ><i class="ph ph-arrow-elbow-right-down"></i></span
+                ></a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--====== My Interest Area End ======-->
-
-    <!--====== Education Area Start ======-->
-    <section id="education-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h2>Education</h2>
+          </section>
+          <section id="about_me" class="about section">
+            <span class="section-title-overlay-text">About me</span>
+            <div class="section-title text-capitalize">
+              <h4>Some Word About me</h4>
+              <h2>know me more</h2>
             </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="educaton-content">
-              <div class="cd-timeline">
-                <!--===Single Education Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
+            <div class="row mb-4 mb-lg-5 align-items-center">
+              <div class="col-lg-7 col-xl-8 about-desc">
+                <h2>I'm Bernard Appiah, an agile developer</h2>
+                <p class="desc">
+                  with over 4 years of experience in the
+                  web development industry. I specialize in developing simple,
+                  clean, and efficient websites that deliver real value to
+                  users. My approach ensures that projects are completed on time
+                  and within budget, meeting and often exceeding client
+                  expectations.
+                </p>
+                <div class="row contact">
+                  <div class="col-sm-4">
+                    <p>Email:</p>
+                    <a
+                      href="mailto:appiahbernard42@gmail.com"
+                      title="appiahbernard42@gmail.com"
+                      >appiahbernard42</a
+                    >
                   </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInLeft">
-                      <h2>b.tech Cybersecurity</h2>
-                      <p>
-                        JAN 2022 - SEP 2025 |
-                        <span>Accra Technical University</span>
-                      </p>
-                    </div>
-                    <span class="cd-description wow fadeInRight">
-                      This program is providing me with a deep understanding of
-                      cybersecurity principles and practices. I’m learning about
-                      network security, threat management, and incident
-                      response, which are equipping me to address real-world
-                      security challenges and protect information systems from
-                      various cyber threats.
-                    </span>
+                  <div class="col-sm-4">
+                    <p>Date of Birth:</p>
+                    <span>5 November, 😅</span>
                   </div>
-                </div>
-                <!--===Single Education End===-->
-
-                <!--===Single Education Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInRight">
-                      <h2>Diploma Software Eng.</h2>
-                      <p><span>Alx Africa</span> | NOV 2021 - JAN 2022</p>
-                    </div>
-                    <span class="cd-description wow fadeInLeft">
-                      Completed a Diploma in Software Eng. with ALX Africa,
-                      focusing on essential skills for modern web development.
-                      The program covered HTML5 and CSS3, version control
-                      systems, web performance optimization, testing and
-                      debugging, user experience (UX) design, and web
-                      accessibility.
-                    </span>
+                  <div class="col-sm-4">
+                    <p>Location:</p>
+                    <span>Accra, Ghana</span>
                   </div>
                 </div>
-                <!--===Single Education End===-->
-
-                <!--===Single Education Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInLeft">
-                      <h2>META FRONTEND DEV. course</h2>
-                      <p>JUN 2023 - DEC 2013 | <span>Cousera</span></p>
+              </div>
+              <div class="col-lg-5 col-xl-4">
+                <div class="experience-card">
+                  <div class="card-inner"></div>
+                  <div>
+                    <div class="numbers">
+                      <span class="number-outline-one">4+</span>
+                      <span class="number-outline-two">4+</span>
+                      <span class="number-main">4+</span>
                     </div>
-                    <div class="cd-description wow fadeInRight">
-                      Completed the META Frontend Developer course on Coursera,
-                      which provided comprehensive training in modern frontend
-                      development techniques. The course covered advanced
-                      JavaScript, React.js, responsive web design, and
-                      performance optimization, equipping me with the skills to
-                      build dynamic, high-performance web applications.
-                    </div>
+                    <p>Years of experience</p>
                   </div>
                 </div>
-                <!--===Single Education End===-->
-
-                <!--===Single Education Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInRight">
-                      <h2>leadership development</h2>
-                      <p><span>Aspire Institute</span> | SEP 2023 - OCT 2023</p>
-                    </div>
-                    <span class="cd-description wow fadeInLeft">
-                      Completed a Leadership Development program at Aspire
-                      Institute, focusing on essential leadership skills and
-                      strategies. The course covered effective team management,
-                      strategic decision-making, and communication techniques,
-                      enhancing my ability to lead projects and teams
-                      successfully while driving organizational goals.
-                    </span>
-                  </div>
-                </div>
-                <!--===Single Education End===-->
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--====== Education Area End ======-->
-
-    <!--====== Experience Area Start ======-->
-    <section id="experience-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h2>Work Experience</h2>
+            <div class="col-12">
+              <a
+                href="index.html#services"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">02/10</span>
+                <span class="next">Next Chapter</span>
+                <span class="icon"
+                  ><i class="ph ph-arrow-elbow-right-down"></i></span
+              ></a>
             </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="experience-content">
-              <div class="cd-timeline">
-                <!--===Single Experience Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInLeft">
-                      <h2>agile developer</h2>
-                      <p>JAN 2023 - Present | <span>freelancer</span></p>
+          </section>
+          <section id="services" class="services section position-relative">
+            <span class="section-title-overlay-text">my services</span>
+            <div class="section-title text-capitalize">
+              <h4>How I can help your next project</h4>
+              <h2>What I Do?</h2>
+            </div>
+            <div dir="ltr" class="swiper service-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                        <h2>01</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>SEO Optimization</h4>
+                      <ul class="service-list">
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Keyword
+                          Research
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> On-page SEO
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Technical SEO
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Link Building
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> SEO Audits
+                        </li>
+                      </ul>
                     </div>
-                    <span class="cd-description wow fadeInRight">
+                  </div>
+                </div>
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                        <h2>02</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>Development</h4>
+                      <ul class="service-list">
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Front-End
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Back-End
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Full-Stack
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Database
+                          Management
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> API
+                          Integration Design
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                        <h2>04</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>Website Maintenance</h4>
+                      <ul class="service-list">
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Regular
+                          Updates
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Security
+                          Monitoring
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Backup
+                          Management
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Performance
+                          Optimization
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Content
+                          Updates
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                        <h2>05</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span> <span></span> <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>No-Code Website Development</h4>
+                      <ul class="service-list">
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> WordPress
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Webflow
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> HubSpot CMS
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Wix Studio
+                          Development
+                        </li>
+                        <li>
+                          <i class="ph ph-caret-double-right"></i> Plugin
+                          Integration
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="col-12">
+              <a
+                href="index.html#attainments"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">03/10</span>
+                <span class="next">Next Chapter</span>
+                <i class="ph ph-arrow-elbow-right-down"></i
+              ></a>
+            </div>
+          </section>
+          <section
+            id="attainments"
+            class="attainments section position-relative"
+          >
+            <span class="section-title-overlay-text">ATTAINMENTS</span>
+            <div class="row pb-120 design-row">
+              <div class="col-lg-4">
+                <div class="section-title-sm">
+                  <div class="top">
+                    <h2>Design Skills</h2>
+                    <span>Highlight My Expertise in:</span>
+                  </div>
+                  <span class="serial">01.-</span>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="design-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">
+                        Design
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="branding-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">
+                        Branding
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="ecommerce-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">
+                        Ecommerce
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pb-120 developer-row">
+              <div class="col-md-5 col-lg-4 offset-sm-1 offset-lg-2">
+                <div class="section-title-sm">
+                  <div class="top">
+                    <h2>Developer Skills</h2>
+                    <span>Highlight My Expertise in:</span>
+                  </div>
+                  <span class="serial">02.-</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex flex-column gap-3">
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Front-End Development</span> <span>90%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Back-End Development</span> <span>85%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Full-Stack Development</span> <span>88%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="88%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Database Management</span> <span>80%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="80%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Version Control</span> <span>95%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>API Integration</span> <span>87%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="87%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pb-120 language-row">
+              <div class="col-lg-4">
+                <div class="section-title-sm">
+                  <div class="top">
+                    <h2>Language Skills</h2>
+                    <span>Highlight My Expertise in:</span>
+                  </div>
+                  <span class="serial">03.-</span>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8">
+                <div class="row g-3">
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="design-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">
+                        Twi
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="branding-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">
+                        English
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="ecommerce-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">Ga</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a
+                href="index.html#fun_facts"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">04/10</span>
+                <span class="next">Next Chapter</span>
+                <span class="icon"
+                  ><i class="ph ph-arrow-elbow-right-down"></i></span
+              ></a>
+            </div>
+          </section>
+          <section id="fun_facts" class="fun_facts section">
+            <span class="section-title-overlay-text">my facts</span>
+            <div class="section-title text-capitalize">
+              <h4>Some interesting facts about me</h4>
+              <h2>Fun Facts</h2>
+            </div>
+            <div class="row pb-60">
+              <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="fun-fact">
+                  <div class="numbers">
+                    <span class="number-outline-one">10+</span>
+                    <span class="number-outline-two">10+</span>
+                    <span class="number-main">10+</span>
+                  </div>
+                  <p>Finished Projects</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 offset-md-1 col-xl-3">
+                <div class="fun-fact">
+                  <div class="numbers">
+                    <span class="number-outline-one">20+</span>
+                    <span class="number-outline-two">20+</span>
+                    <span class="number-main">20+</span>
+                  </div>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+            </div>
+            <div class="row pb-60">
+              <div class="col-sm-6 col-md-4 offset-md-2 offset-xl-5 col-xl-3">
+                <div class="fun-fact">
+                  <div class="numbers">
+                    <span class="number-outline-one">130</span>
+                    <span class="number-outline-two">130</span>
+                    <span class="number-main">130</span>
+                  </div>
+                  <p>Intelligence quotient (IQ)🤓</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 offset-md-1 col-xl-3">
+                <div class="fun-fact">
+                  <div class="numbers">
+                    <span class="number-outline-one">100+</span>
+                    <span class="number-outline-two">100+</span>
+                    <span class="number-main">100+</span>
+                  </div>
+                  <p>Lines of code written daily</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a
+                href="index.html#experience"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">05/10</span>
+                <span class="next">Next Chapter</span>
+                <span class="icon"
+                  ><i class="ph ph-arrow-elbow-right-down"></i></span
+              ></a>
+            </div>
+          </section>
+          <section id="experience" class="experience section position-relative">
+            <span class="section-title-overlay-text">EXPERIENCES</span>
+            <div class="section-title text-capitalize">
+              <h4>Highlight My key Experiences</h4>
+              <h2>My Experience</h2>
+            </div>
+            <div class="row pb-60">
+              <div class="col-lg-10 col-xl-8">
+                <div class="experience-wrapper d-flex flex-column">
+                  <div class="experience-item">
+                    <h5>(2023 - Present)</h5>
+                    <h3>Freelance Agile Developer:</h3>
+                    <p>
                       <ul>
                         <li>
-                          - Developing and improving user experiences by
+                          Developing and improving user experiences by
                           building interactive and
                           <strong>visually appealing UIs.</strong>
                         </li>
                         <li>
-                          - <strong>Collaborating</strong> with back-end
+                          <strong>Collaborating</strong> with back-end
                           developers to <strong>integrate APIs</strong>,
                           enhancing application functionality and performance.
                         </li>
                         <li>
-                          -
                           <strong>Ensuring cross-browser compatibility</strong>
                           and <strong>optimizing</strong> applications for
                           better load times and user retention.
                         </li>
                       </ul>
-                    </span>
+                    </p>
                   </div>
-                </div>
-                <!--===Single Experience End===-->
-
-                <!--===Single Experience Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInRight">
-                      <h2>Co-founder / CTO</h2>
-                      <p><span>8th Wonder</span> | APR 2024 - Present</p>
-                    </div>
-                    <span class="cd-description wow fadeInLeft">
-                      <strong>Leading</strong> the technology vision to drive
-                      growth and innovation. <strong>Managing</strong> the
-                      development team to ensure high-quality software delivery.
-                      <strong>Overseeing</strong> the implementation of
-                      <strong>cutting-edge technologies</strong> that align with
-                      business goals.
-                    </span>
-                  </div>
-                </div>
-                <!--===Single Experience End===-->
-
-                <!--===Single Experience Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInLeft">
-                      <h2>frontend Engineer intern</h2>
-                      <p>JUN 2024 - JUL 2024 | <span>Partum Global</span></p>
-                    </div>
-                    <span class="cd-description wow fadeInRight">
+                  <div class="experience-item">
+                    <h5>(APR 2024 - Present)</h5>
+                    <h3>8th Wonder Co-founder / CTO:</h3>
+                    <p>
                       <ul>
                         <li>
-                          - <strong>Developing</strong> responsive and
+                          <strong>Leading</strong> the technology vision to drive
+                      growth and innovation.
+                        </li>
+                        <li>
+                          <strong>Managing</strong> the
+                      development team to ensure high-quality software delivery.
+                        </li>
+                        <li>
+                          <strong>Overseeing</strong> the implementation of
+                          <strong>cutting-edge technologies</strong> that align with
+                          business goals.
+                        </li>
+                      </ul>
+                     
+                    </p>
+                  </div>
+                  <div class="experience-item">
+                    <h5>(JUN 2024 - JUL 2024)</h5>
+                    <h3>Frontend Engineer intern at Partum Global:</h3>
+                    <p>
+                      <ul>
+                        <li>
+                           <strong>Developing</strong> responsive and
                           interactive front-end features using
                           <strong>HTML</strong>, <strong>CSS</strong>, and
                           <strong>JavaScript</strong>.
                         </li>
                         <li>
-                          - <strong>Collaborating</strong> with designers and
+                          <strong>Collaborating</strong> with designers and
                           back-end developers to create seamless user
                           experiences and integrate with <strong>APIs</strong>.
                         </li>
                         <li>
-                          - <strong>Optimizing</strong> web applications for
+                          <strong>Optimizing</strong> web applications for
                           performance and cross-browser compatibility, ensuring
                           a smooth user experience.
                         </li>
                       </ul>
-                    </span>
+                    </p>
                   </div>
-                </div>
-                <!--===Single Experience End===-->
-
-                <!--===Single Experience Start===-->
-                <div class="cd-timeline-block">
-                  <div class="cd-timeline-img">
-                    <span class="dot"></span>
-                  </div>
-                  <div class="cd-timeline-content">
-                    <div class="cd-heading wow fadeInRight">
-                      <h2>Agile developer intern</h2>
-                      <p><span>Xcelsz</span> APR 2023 - MAY 2024</p>
-                    </div>
-                    <span class="cd-description wow fadeInLeft">
-                      <strong>Applying Agile methodologies</strong> to enhance
+                  <div class="experience-item">
+                    <h5>(APR 2023 - MAY 2024)</h5>
+                    <h3>Agile developer intern at Xcelsz</h3>
+                    <p>
+                      <ul>
+                        <li>
+                          <strong>Applying Agile methodologies</strong> to enhance
                       collaboration within cross-functional teams, leading to
                       improved project management and timely deliveries.
-                      <strong
-                        >Designing and implementing software solutions</strong
-                      >
-                      following coding standards to ensure high-quality and
-                      maintainable code.
-                      <strong>Conducting peer code reviews</strong> to ensure
+                        </li>
+                        <li>
+                          <strong
+                          >Designing and implementing software solutions</strong
+                        >
+                        following coding standards to ensure high-quality and
+                        maintainable code.
+                        </li>
+                        <li>
+                          <strong>Conducting peer code reviews</strong> to ensure
                       high-quality deliverables, increasing code reliability and
                       reducing bugs.
-                    </span>
+                        </li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
-                <!--===Single Experience End===-->
+                <a
+                  href="assets/headstarter_bernardCV.pdf"
+                  class="download-cv position-relative"
+                  download
+                  title="Download my resume"
+                  ><div class="waves-top-md">
+                    <span></span> <span></span> <span></span> <span></span>
+                  </div>
+                  <img src="assets/images/arrow.png" alt="" />
+                  <div class="waves-bottom-md">
+                    <span></span> <span></span> <span></span> <span></span></div
+                ></a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--====== Experience Area End ======-->
-
-    <!--====== Skill Area Start ======-->
-    <section id="pro-skills-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h2>Professional Skills</h2>
+            <div class="col-12">
+              <a
+                href="index.html#projects"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">06/10</span>
+                <span class="next">Next Chapter</span>
+                <span class="icon"
+                  ><i class="ph ph-arrow-elbow-right-down"></i></span
+              ></a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills-area-middle">
-        <div class="container">
-          <div class="skills-content">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="skillst5">
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title">HTML 5</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
+          </section>
+          <section id="projects" class="projects section position-relative">
+            <span class="section-title-overlay-text">projects</span>
+            <div class="section-title text-capitalize">
+              <h4>Some of my most recent projects</h4>
+              <h2>My Featured Projected</h2>
+            </div>
+            <div class="row pb-60 project-list g-4">
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/clipped.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="https//:jobsbyus.com" class="card-arrow" target="_blank" title="Visit JobsByUs"
+                      ><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>JobsByUs</h2>
+                    <p>Online Job Plaform</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Hosting</span> - <span>frontend</span> -
+                      <span>backend</span>
                     </div>
                   </div>
-                  <!--=== Single Skill End ===-->
-
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title">javascript</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <!--=== Single Skill End ===-->
-
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="85%">
-                    <div class="title">CSS 3 / tailwind</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <!--=== Single Skill End ===-->
                 </div>
               </div>
-
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="skillst5 float-right">
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="85%">
-                    <div class="title">react</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/clipped8th.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="https://8thwonder.xyz" class="card-arrow" title="Visit 8th wonder" target="_blank"
+                      ><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>8th Wonder</h2>
+                    <p>Waitlist Website</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Client side scripting</span> - <span>frontend</span> 
+                   
                     </div>
                   </div>
-                  <!--=== Single Skill End ===-->
-
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title">Rest api's</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/clippedLam.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="https://lamnaturals.onrender.com/" class="card-arrow" title="visit lam naturals" target="_blank"
+                      ><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>Lam Naturals</h2>
+                    <p>Agro Eccomerce App</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Backend</span> -
+                      <span>Frontend</span>
                     </div>
                   </div>
-                  <!--=== Single Skill End ===-->
-
-                  <!--=== Single Skill Strat ===-->
-                  <div class="skillbar" data-percent="90%">
-                    <div class="title">WordPress</div>
-                    <div class="count-bar color-1">
-                      <div class="count"></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/clip-brics.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="index.html#" class="card-arrow" title="Brics Site is still under construction"
+                      ><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>Brics Africa</h2>
+                    <p>Consulting Website</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Client side scripting</span> -
+                      <span>Frontend</span>
                     </div>
                   </div>
-                  <!--=== Single Skill End ===-->
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/clip-nissi.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="https://nissination.vercel.app/" class="card-arrow" title="visit nissi nation site"
+                      target="_blank"><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>Nissi Nation</h2>
+                    <p>Artiste Portfolio Website</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Client side scripting</span> -
+                      <span>Frontend</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-4">
+                <div class="single-project">
+                  <div class="project-card">
+                    <div class="card-inner"></div>
+                    <img
+                      src="assets/images/poki-clip.png"
+                      class="img-fluid w-100 card-img h-100"
+                      alt=""
+                    />
+                    <a href="https://enyata-9e2b.vercel.app/" class="card-arrow" title="visit poki diary" target="_blank"
+                      ><div class="arrow-inner">
+                        <i class="ph ph-arrow-up-right"></i></div
+                    ></a>
+                  </div>
+                  <div class="project-info">
+                    <h2>Poki Diary</h2>
+                    <p>Poki Website</p>
+                    <div class="tags d-flex align-items-center gap-1">
+                      <span>Client side scripting</span> -
+                      <span>Frontend</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill-area-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="skill-bottom-content">
-                <div class="single-skill-bottom wow fadeInUp">
-                  <h2>01.</h2>
-                  <h3>SEO Optimization</h3>
-                  <p>
-                    Skilled in optimizing websites for search engines to enhance
-                    visibility and drive organic traffic. Experienced in
-                    implementing on-page SEO techniques, keyword research, and
-                    performance analysis to improve site ranking and user
-                    engagement.
-                  </p>
+            <div class="col-12">
+              <a
+                href="index.html#how_i_work"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">07/10</span>
+                <span class="next">Next Chapter</span>
+                <i class="ph ph-arrow-elbow-right-down"></i
+              ></a>
+            </div>
+          </section>
+          <section id="how_i_work" class="how-i-work section position-relative">
+            <span class="section-title-overlay-text">How i Work</span>
+            <div class="section-title text-capitalize">
+              <h4>How i Work</h4>
+              <h2>My Working Process</h2>
+            </div>
+            <div class="row pb-60 px-4 process-list justify-content-center">
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>01.</p>
+                  <p>idea</p>
                 </div>
-
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>02.</p>
+                  <p>sketch</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>03.</p>
+                  <p>design</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>04.</p>
+                  <p>develop</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>05.</p>
+                  <p>text</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>06.</p>
+                  <p>launch</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="more-info d-flex flex-wrap align-items-center gap-5 gap-md-3"
+            >
+              <p>Need More info? Please Get in touch</p>
+              <span class="line"></span>
+              <a href="index.html#contact" class="arrow-down position-relative"
+                ><div class="waves-top-md">
+                  <span></span> <span></span> <span></span> <span></span>
+                </div>
+                <img src="assets/images/arrow.png" alt="" />
+                <div class="waves-bottom-md">
+                  <span></span> <span></span> <span></span> <span></span></div
+              ></a>
+            </div>
+            <div class="col-12">
+              <a
+                href="index.html#testimonials"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">08/10</span>
+                <span class="next">Next Chapter</span>
+                <i class="ph ph-arrow-elbow-right-down"></i
+              ></a>
+            </div>
+          </section>
+          <section
+            id="testimonials"
+            class="testimonials section position-relative"
+          >
+            <span class="section-title-overlay-text">TESTIMONIALS</span>
+            <div class="section-title text-capitalize">
+              <h4>My Clients and Testimonials</h4>
+              <h2>My Clients Reviews</h2>
+            </div>
+            <div dir="ltr" class="row pb-120 testimonial px-3">
+              <div class="swiper testimonial-swiper pb-60">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="img-wrapper">
+                        <div class="inner">
+                          <div class="waves-top-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                          <img
+                            src="assets/images/WhatsApp Image 2024-06-06 at 16.38.16_ea3d1202.jpg"
+                            width="82"
+                            height="82"
+                            alt=""
+                          />
+                          <div class="waves-bottom-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h3>Lam Naturals</h3>
+                        <div class="d-flex align-items-center gap-2 mb-4">
+                          <p>Webapp Owner</p>
+                          <p>--</p>
+                          <span>www.lamnaturals.com</span>
+                        </div>
+                        <p class="desc">
+                          Bernard's work on our e-commerce platform was a game-changer. The site is user-friendly, visually appealing, and has streamlined our order management.
+                        </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="img-wrapper">
+                        <div class="inner">
+                          <div class="waves-top-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                          <img
+                            src="assets/images/photo_2024-07-22_18-33-40.jpg"
+                            width="82"
+                            height="82"
+                            alt=""
+                          />
+                          <div class="waves-bottom-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h3>Brics Africa</h3>
+                        <div class="d-flex align-items-center gap-2 mb-4">
+                          <p>Website Owner</p>
+                          <p>--</p>
+                          <span>www.bricsafricaconsulting.com</span>
+                        </div>
+                        <p class="desc">
+                          Bernard transformed our online presence with a sleek, professional website. His expertise and attention to detail were outstanding, delivering a platform that truly represents our brand.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="img-wrapper">
+                        <div class="inner">
+                          <div class="waves-top-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                          <img
+                            src="assets/images/8TH WONDER Logo Flyer (green gradient bg).jpg"
+                            width="82"
+                            height="82"
+                            alt=""
+                          />
+                          <div class="waves-bottom-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h3>8th Wonder</h3>
+                        <div class="d-flex align-items-center gap-2 mb-4">
+                          <p>Cofounder & CTO</p>
+                          <p>--</p>
+                          <span>https://8thwonder.xyz</span>
+                        </div>
+                        <p class="desc">
+                          "Bernard's expertise was instrumental in bringing our vision to life. The website he developed is not only visually stunning but also highly functional, meeting all our business needs."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card">
+                      <div class="img-wrapper">
+                        <div class="inner">
+                          <div class="waves-top-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                          <img
+                            src="assets/images/twitterlogo.png"
+                            width="82"
+                            height="82"
+                            alt=""
+                          />
+                          <div class="waves-bottom-sm">
+                            <span></span> <span></span> <span></span>
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <h3>JobsByUs</h3>
+                        <div class="d-flex align-items-center gap-2 mb-4">
+                          <p>webapp owner</p>
+                          <p>--</p>
+                          <span>https://jobsbyus.com</span>
+                        </div>
+                        <p class="desc">
+                          Bernard's development of JobsByUs was exceptional. The platform is user-friendly, efficient, and has significantly streamlined the job search process for our users.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-between gap-4 align-items-center"
+              >
+                <div class="s-scrollbar flex-grow-1"></div>
+                <div class="d-flex gap-3">
+                  <button class="testi-prev">
+                    <i class="ph ph-arrow-left"></i>
+                  </button>
+                  <button class="testi-next">
+                    <i class="ph ph-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a
+                href="index.html#contact"
+                class="d-flex gap-4 align-items-center next-chapter"
+                ><span class="page">09/10</span>
+                <span class="next">Next Chapter</span>
+                <i class="ph ph-arrow-elbow-right-down"></i
+              ></a>
+            </div>
+          </section>
+          <section id="contact" class="contact section position-relative">
+            <span class="section-title-overlay-text">contact</span>
+            <div class="section-title text-capitalize">
+              <h4>Let's get in touch</h4>
+              <h2>Contact me</h2>
+            </div>
+            <div class="row pb-120 contact-items">
+              <div class="row g-4">
+                <div class="col-sm-6 col-xl-4 col-xxl-3">
+                  <div class="contact-item">
+                    <div class="icon-box"><i class="ph ph-phone-call"></i></div>
+                     <p>+233 592 332 359</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-4 col-xxl-3">
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="ph ph-envelope-open"></i>
+                    </div>
+                    <p>appiahbernard<br/>@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-4 col-xxl-3">
+                  <div class="contact-item">
+                    <div class="icon-box"><i class="ph ph-map-pin"></i></div>
+                    <p>Accra, Ghana</p>
+                  </div>
+                </div>
                 <div
-                  class="single-skill-bottom sin-skill-middle wow fadeInDown"
+                  class="col-sm-6 col-xl-4 col-xxl-3 d-flex align-items-center"
                 >
-                  <h2>02.</h2>
-                  <h3>Web Development</h3>
-                  <p>
-                    Expert in building robust and responsive websites using
-                    modern technologies such as <strong>React.js</strong>,
-                    <strong>Vue.js</strong>, and <strong>Next.js</strong>.
-                    Proficient in creating dynamic and scalable web
-                    applications, ensuring excellent user experiences through
-                    clean code and efficient design practices.
-                  </p>
-                </div>
-
-                <div class="single-skill-bottom wow fadeInUp">
-                  <h2>03.</h2>
-                  <h3>Site Maintenance</h3>
-                  <p>
-                    Adept at maintaining and updating websites to ensure optimal
-                    performance and security. Proficient in monitoring site
-                    health, performing regular updates, and troubleshooting
-                    issues to provide a seamless and secure user experience.
-                  </p>
+                  <div class="d-flex gap-3 social-icons">
+                    <a href="https://t.me/Bernard_Appiah" target="_blank"
+                      ><i class="ph ph-telegram-logo"></i
+                    ></a>
+                    <a href="https://linkedin.com/in/bernard-appiah360" target="_blank"
+                      ><i class="ph ph-linkedin-logo"></i
+                    ></a>
+                    <a href="https://github.com/Borngod"><i class="ph ph-github-logo"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--====== Skill Area End ======-->
-
-    <!--====== Portfolio Area Start ======-->
-    <section id="portfolio-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h2>Some Of My Works</h2>
+            <div class="section-title text-capitalize">
+              <h4>Ready to Work Together?</h4>
+  <h2>Book a Meeting</h2>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="portfolio-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <div class="portfolio-items">
-                <div class="row">
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="Jobsbyus"
-                          width="20px"
-                          height="20px"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a
-                            href="img/portfolio/Screen Recording 2024-07-25 093318.gif"
-                            class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>JobsByUs</h4>
-                          <p>Job Portal</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio End ===-->
-
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="Lam Naturals"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a href="img/portfolio/lam-reals.gif" class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio-lam.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>Lam Naturals</h4>
-                          <p>Agro Eccomerce Web app</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio End ===-->
-
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="8th_wonder"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a href="img/portfolio/8th-real.gif" class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio-8th.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>Waitlist Website</h4>
-                          <p>8th Wonder</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio    End ===-->
-
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="Brics Africa"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a
-                            href="img/portfolio/Screen Recording 2024-07-25 134428.gif"
-                            class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio-brics.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>Brics Africa</h4>
-                          <p>Consulting Website</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio End ===-->
-
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="Nissi Nation"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a
-                            href="img/portfolio/nissi-real.gif"
-                            class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio-nissi.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>Nissi Nation</h4>
-                          <p>Artiste Website</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio    End ===-->
-
-                  <!--=== Single Portfolio Start ===-->
-                  <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="portfolio-single">
-                      <div class="portfolio-thum">
-                        <img
-                          src="img/portfolio/port_item-6.jpg"
-                          alt="Raju Ahammad"
-                        />
-                      </div>
-                      <div class="portfolio-hover text-center">
-                        <div class="port-btn-hvr">
-                          <a href="img/portfolio/poki-real.gif" class="image-link"
-                            ><i class="fa fa-search-plus"></i
-                          ></a>
-                          <a href="single-portfolio-enyata.html"
-                            ><i class="fa fa-link"></i
-                          ></a>
-                        </div>
-                        <div class="port-meta">
-                          <h4>Pokemon Book</h4>
-                          <p>Personal Project</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--=== Single Portfolio End ===-->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- <div class="row">
-            <div class="col-md-12">
-              <div class="portfolio-btn">
-                <a href="portfolio.html">Load More</a>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <!--====== Portfolio Area End ======-->
-
-    <!--====== Testinonial Area Start ======-->
-
-    <!--====== Message Area End ======-->
-
-    <!--====== Blog Area Start ======-->
-
-    <!--====== Blog Area End ======-->
-
-    <!--====== Contact Area Start ======-->
-    <section id="contact-area" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h2>Book a Meeting</h2>
-            </div>
-          </div>
-        </div>
-
-        <!-- Calendly inline widget begin -->
+            <form id="contact-form" class="contact-form">
+              
+              <!-- <div class="row g-4 g-xl-5">
+               
+              </div> -->
+                <!-- Calendly inline widget begin -->
         <div
-          class="calendly-inline-widget"
-          data-url="https://calendly.com/bernard360"
-          style="min-width: 320px; height: 700px"
-        ></div>
-        <script
-          type="text/javascript"
-          src="https://assets.calendly.com/assets/external/widget.js"
-          async
-        ></script>
-        <!-- Calendly inline widget end -->
-      </div>
-    </section>
-    <!--====== Contact Area End ======-->
-
-    <!--====== Footer Area Start ======-->
-    <footer id="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="footer-social-link">
-              <ul class="footer-icons">
-                <li>
-                  <a
-                    href="https://gitroll.io/profile/uCZoLxQkkuRdj3aAXuhjEPScYxeO2/repos"
-                    target="_blank"
-                    ><i class="fa fa-address-book"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://t.me/Bernard_Appiah" target="_blank"
-                    ><i class="fa fa-telegram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://github.com/Borngod" target="_blank"
-                    ><i class="fa fa-github"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://linkedin.com/in/bernard-appiah360"
-                    target="_blank"
-                    ><i class="fa fa-linkedin"></i
-                  ></a>
-                </li>
-              </ul>
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/bernard360"
+        style="min-width: 320px; height: 700px"
+      ></div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
+            </form>
+            <div class="col mt-5 pt-5 next-chapter">
+              <span class="page">10/10</span>
             </div>
-            <hr />
-            <div class="copyright-area text-center">
-              <p>
-                Bernard Appiah &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                . ALL RIGHTS RESERVED.
-              </p>
-            </div>
-          </div>
+          </section>
         </div>
       </div>
-    </footer>
-    <!--====== Footer Area End ======-->
-
-    <!--====== Back To Top Section Start ======-->
-    <div
-      id="scroll"
-      data-toggle="tooltip"
-      data-placement="top"
-      title="Back To Top"
-    >
-      <a href="index.html#"><i class="fa fa-angle-up"></i></a>
+    </main>
+    <div class="color-switcher">
+      <button class="color-switcher-btn"><i class="ph ph-gear-six"></i></button>
+      <div
+        class="pallets d-flex flex-column align-items-center gap-4 justify-content-center"
+      >
+        <div class="d-flex flex-column gap-3">
+          <div class="d-flex gap-3">
+            <button
+              style="background-color: #ffdb67"
+              class="color-btn"
+              data-color="#FFDB67"
+            ></button>
+            <button
+              style="background-color: #ff91fb"
+              class="color-btn"
+              data-color="#FF91FB"
+            ></button>
+            <button
+              style="background-color: #fdbb2e"
+              class="color-btn"
+              data-color="#FDBB2E"
+            ></button>
+          </div>
+          <div class="d-flex gap-3">
+            <button
+              style="background-color: #eee8aa"
+              class="color-btn"
+              data-color="#EEE8AA"
+            ></button>
+            <button
+              style="background-color: #00ffff"
+              class="color-btn"
+              data-color="#00FFFF"
+            ></button>
+            <button
+              style="background-color: #00fe9c"
+              class="color-btn"
+              data-color="#00FE9C"
+            ></button>
+          </div>
+        </div>
+        <div class="d-flex gap-3 justify-content-between">
+          <button class="px-3 ltr py-2 border-0">LTR</button>
+          <button class="px-3 rtl py-2 border-0">RTL</button>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <label for="grained">Grained BG</label>
+          <input type="checkbox" id="grained" class="grained-checkbox" />
+        </div>
+      </div>
     </div>
-    <!--====== Back To Top Section End ======-->
-
-    <!--==================================================================-->
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-
-    <!--=== All Plugin ===-->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script
-      type="text/javascript"
-      src="js/plugins/jquery.header.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/plugins/magnific-popup.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/plugins/owl.carousel.min.js"
-    ></script>
-    <script type="text/javascript" src="js/plugins/wow.min.js"></script>
-    <script type="text/javascript" src="js/plugins/appear.js"></script>
-    <script type="text/javascript" src="js/plugins/isotope.min.js"></script>
-    <script
-      type="text/javascript"
-      src="js/plugins/jqBootstrapValidation.js"
-    ></script>
-    <script type="text/javascript" src="js/plugins/contact_me.js"></script>
-
-    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
